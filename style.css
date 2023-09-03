@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#current-image-container{
+    padding: 10px;
+    height: 140vh;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#current-image-container>img{
+    margin: 2%;
+    width: 50%;
+    height: 50%;
+}
+
+#current-image-container>h1, h2, p{
+    padding: 10px;
+    margin: 0 2%;
+}
+
+#current-image-container>p{
+    font-size: 20px;
+    color: gray;
+}
+
+#search-btn{
+    padding: 0 10px;
+}
+
+#history-containeer>h2{
+    margin: 2%;
+}
+
+#search-history{
+    margin: 2%;
+}
+
+#search-form>div{
+    margin: 2%;
+}
+
+#search-history>li{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px;
+    list-style-type: none;
+}
